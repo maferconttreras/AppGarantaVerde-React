@@ -1,0 +1,544 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-color-material-theme-black: rgba(0, 0, 0, 1);
+  --dl-color-material-theme-white: rgba(255, 255, 255, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-material-theme_source-seed: rgba(112, 139, 0, 1);
+  --dl-color-material-theme_sys_dark-error: rgba(255, 180, 171, 1);
+  --dl-color-material-theme_sys_dark-scrim: rgba(0, 0, 0, 1);
+  --dl-color-material-theme_sys_dark-shadow: rgba(0, 0, 0, 1);
+  --dl-color-material-theme_sys_light-error: rgba(186, 26, 26, 1);
+  --dl-color-material-theme_sys_light-scrim: rgba(0, 0, 0, 1);
+  --dl-color-material-theme_ref_error-error0: rgba(0, 0, 0, 1);
+  --dl-color-material-theme_ref_error-error4: rgba(40, 0, 1, 1);
+  --dl-color-material-theme_ref_error-error5: rgba(45, 0, 1, 1);
+  --dl-color-material-theme_ref_error-error6: rgba(49, 0, 1, 1);
+  --dl-color-material-theme_sys_dark-onerror: rgba(105, 0, 5, 1);
+  --dl-color-material-theme_sys_dark-outline: rgba(144, 146, 131, 1);
+  --dl-color-material-theme_sys_dark-primary: rgba(180, 211, 79, 1);
+  --dl-color-material-theme_sys_dark-surface: rgba(19, 20, 15, 1);
+  --dl-color-material-theme_sys_light-shadow: rgba(0, 0, 0, 1);
+  --dl-color-material-theme_ref_error-error10: rgba(65, 0, 2, 1);
+  --dl-color-material-theme_ref_error-error12: rgba(73, 0, 2, 1);
+  --dl-color-material-theme_ref_error-error17: rgba(92, 0, 4, 1);
+  --dl-color-material-theme_ref_error-error20: rgba(105, 0, 5, 1);
+  --dl-color-material-theme_ref_error-error22: rgba(113, 0, 5, 1);
+  --dl-color-material-theme_ref_error-error24: rgba(121, 0, 6, 1);
+  --dl-color-material-theme_ref_error-error25: rgba(126, 0, 7, 1);
+  --dl-color-material-theme_ref_error-error30: rgba(147, 0, 10, 1);
+  --dl-color-material-theme_ref_error-error35: rgba(168, 7, 16, 1);
+  --dl-color-material-theme_ref_error-error40: rgba(186, 26, 26, 1);
+  --dl-color-material-theme_ref_error-error50: rgba(222, 55, 48, 1);
+  --dl-color-material-theme_ref_error-error60: rgba(255, 84, 73, 1);
+  --dl-color-material-theme_ref_error-error70: rgba(255, 137, 125, 1);
+  --dl-color-material-theme_ref_error-error80: rgba(255, 180, 171, 1);
+  --dl-color-material-theme_ref_error-error87: rgba(255, 207, 201, 1);
+  --dl-color-material-theme_ref_error-error90: rgba(255, 218, 214, 1);
+  --dl-color-material-theme_ref_error-error92: rgba(255, 226, 222, 1);
+  --dl-color-material-theme_ref_error-error94: rgba(255, 233, 230, 1);
+  --dl-color-material-theme_ref_error-error95: rgba(255, 237, 234, 1);
+  --dl-color-material-theme_ref_error-error96: rgba(255, 240, 238, 1);
+  --dl-color-material-theme_ref_error-error98: rgba(255, 248, 247, 1);
+  --dl-color-material-theme_ref_error-error99: rgba(255, 251, 255, 1);
+  --dl-color-material-theme_sys_dark-tertiary: rgba(161, 208, 197, 1);
+  --dl-color-material-theme_sys_light-onerror: rgba(255, 255, 255, 1);
+  --dl-color-material-theme_sys_light-outline: rgba(118, 120, 107, 1);
+  --dl-color-material-theme_sys_light-primary: rgba(81, 102, 0, 1);
+  --dl-color-material-theme_sys_light-surface: rgba(251, 249, 241, 1);
+  --dl-color-material-theme_android_dark-scrim: rgba(200, 199, 191, 1);
+  --dl-color-material-theme_key-colors-primary: rgba(112, 139, 0, 1);
+  --dl-color-material-theme_ref_error-error100: rgba(255, 255, 255, 1);
+  --dl-color-material-theme_sys_dark-onprimary: rgba(41, 53, 0, 1);
+  --dl-color-material-theme_sys_dark-onsurface: rgba(200, 199, 191, 1);
+  --dl-color-material-theme_sys_dark-secondary: rgba(196, 202, 169, 1);
+  --dl-color-material-theme_sys_light-tertiary: rgba(58, 102, 94, 1);
+  --dl-color-material-theme_android_light-scrim: rgba(200, 199, 191, 1);
+  --dl-color-material-theme_sys_dark-background: rgba(27, 28, 23, 1);
+  --dl-color-material-theme_sys_dark-ontertiary: rgba(3, 55, 48, 1);
+  --dl-color-material-theme_sys_dark-surfacedim: rgba(19, 20, 15, 1);
+  --dl-color-material-theme_sys_light-onprimary: rgba(255, 255, 255, 1);
+  --dl-color-material-theme_sys_light-onsurface: rgba(27, 28, 23, 1);
+  --dl-color-material-theme_sys_light-secondary: rgba(91, 97, 70, 1);
+  --dl-color-material-theme_ref_neutral-neutral0: rgba(0, 0, 0, 1);
+  --dl-color-material-theme_ref_neutral-neutral4: rgba(14, 15, 10, 1);
+  --dl-color-material-theme_ref_neutral-neutral5: rgba(17, 17, 13, 1);
+  --dl-color-material-theme_ref_neutral-neutral6: rgba(19, 20, 15, 1);
+  --dl-color-material-theme_ref_primary-primary0: rgba(0, 0, 0, 1);
+  --dl-color-material-theme_ref_primary-primary4: rgba(11, 16, 0, 1);
+  --dl-color-material-theme_ref_primary-primary5: rgba(13, 19, 0, 1);
+  --dl-color-material-theme_ref_primary-primary6: rgba(15, 22, 0, 1);
+  --dl-color-material-theme_sys_dark-onsecondary: rgba(45, 51, 28, 1);
+  --dl-color-material-theme_sys_dark-surfacetint: rgba(180, 211, 79, 1);
+  --dl-color-material-theme_sys_light-background: rgba(254, 252, 244, 1);
+  --dl-color-material-theme_sys_light-ontertiary: rgba(255, 255, 255, 1);
+  --dl-color-material-theme_sys_light-surfacedim: rgba(220, 218, 210, 1);
+  --dl-color-material-theme_android_dark-offstate: rgba(48, 49, 43, 1);
+  --dl-color-material-theme_ref_neutral-neutral10: rgba(27, 28, 23, 1);
+  --dl-color-material-theme_ref_neutral-neutral12: rgba(31, 32, 27, 1);
+  --dl-color-material-theme_ref_neutral-neutral17: rgba(42, 42, 37, 1);
+  --dl-color-material-theme_ref_neutral-neutral20: rgba(48, 49, 43, 1);
+  --dl-color-material-theme_ref_neutral-neutral22: rgba(53, 53, 48, 1);
+  --dl-color-material-theme_ref_neutral-neutral24: rgba(57, 58, 52, 1);
+  --dl-color-material-theme_ref_neutral-neutral25: rgba(59, 60, 54, 1);
+  --dl-color-material-theme_ref_neutral-neutral30: rgba(71, 71, 65, 1);
+  --dl-color-material-theme_ref_neutral-neutral35: rgba(83, 83, 77, 1);
+  --dl-color-material-theme_ref_neutral-neutral40: rgba(95, 95, 88, 1);
+  --dl-color-material-theme_ref_neutral-neutral50: rgba(120, 119, 113, 1);
+  --dl-color-material-theme_ref_neutral-neutral60: rgba(146, 145, 138, 1);
+  --dl-color-material-theme_ref_neutral-neutral70: rgba(172, 171, 164, 1);
+  --dl-color-material-theme_ref_neutral-neutral80: rgba(200, 199, 191, 1);
+  --dl-color-material-theme_ref_neutral-neutral87: rgba(220, 218, 210, 1);
+  --dl-color-material-theme_ref_neutral-neutral90: rgba(228, 227, 218, 1);
+  --dl-color-material-theme_ref_neutral-neutral92: rgba(234, 232, 224, 1);
+  --dl-color-material-theme_ref_neutral-neutral94: rgba(240, 238, 230, 1);
+  --dl-color-material-theme_ref_neutral-neutral95: rgba(243, 241, 233, 1);
+  --dl-color-material-theme_ref_neutral-neutral96: rgba(246, 244, 235, 1);
+  --dl-color-material-theme_ref_neutral-neutral98: rgba(251, 249, 241, 1);
+  --dl-color-material-theme_ref_neutral-neutral99: rgba(254, 252, 244, 1);
+  --dl-color-material-theme_ref_primary-primary10: rgba(23, 30, 0, 1);
+  --dl-color-material-theme_ref_primary-primary12: rgba(26, 35, 0, 1);
+  --dl-color-material-theme_ref_primary-primary17: rgba(35, 46, 0, 1);
+  --dl-color-material-theme_ref_primary-primary20: rgba(41, 53, 0, 1);
+  --dl-color-material-theme_ref_primary-primary22: rgba(45, 57, 0, 1);
+  --dl-color-material-theme_ref_primary-primary24: rgba(49, 62, 0, 1);
+  --dl-color-material-theme_ref_primary-primary25: rgba(51, 64, 0, 1);
+  --dl-color-material-theme_ref_primary-primary30: rgba(61, 77, 0, 1);
+  --dl-color-material-theme_ref_primary-primary35: rgba(71, 89, 0, 1);
+  --dl-color-material-theme_ref_primary-primary40: rgba(81, 102, 0, 1);
+  --dl-color-material-theme_ref_primary-primary50: rgba(103, 128, 0, 1);
+  --dl-color-material-theme_ref_primary-primary60: rgba(127, 155, 25, 1);
+  --dl-color-material-theme_ref_primary-primary70: rgba(153, 183, 54, 1);
+  --dl-color-material-theme_ref_primary-primary80: rgba(180, 211, 79, 1);
+  --dl-color-material-theme_ref_primary-primary87: rgba(199, 231, 97, 1);
+  --dl-color-material-theme_ref_primary-primary90: rgba(207, 239, 104, 1);
+  --dl-color-material-theme_ref_primary-primary92: rgba(213, 245, 109, 1);
+  --dl-color-material-theme_ref_primary-primary94: rgba(219, 251, 114, 1);
+  --dl-color-material-theme_ref_primary-primary95: rgba(221, 254, 117, 1);
+  --dl-color-material-theme_ref_primary-primary96: rgba(228, 255, 142, 1);
+  --dl-color-material-theme_ref_primary-primary98: rgba(244, 255, 201, 1);
+  --dl-color-material-theme_ref_primary-primary99: rgba(251, 255, 225, 1);
+  --dl-color-material-theme_sys_dark-onbackground: rgba(228, 227, 218, 1);
+  --dl-color-material-theme_sys_dark-primaryfixed: rgba(207, 239, 104, 1);
+  --dl-color-material-theme_sys_light-onsecondary: rgba(255, 255, 255, 1);
+  --dl-color-material-theme_sys_light-surfacetint: rgba(81, 102, 0, 1);
+  --dl-color-material-theme_android_light-offstate: rgba(48, 49, 43, 1);
+  --dl-color-material-theme_ref_neutral-neutral100: rgba(255, 255, 255, 1);
+  --dl-color-material-theme_ref_primary-primary100: rgba(255, 255, 255, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary0: rgba(0, 0, 0, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary4: rgba(0, 17, 14, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary5: rgba(0, 20, 17, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary6: rgba(0, 23, 19, 1);
+  --dl-color-material-theme_surfaces_dark-surface1: rgba(19, 20, 15, 1);
+  --dl-color-material-theme_surfaces_dark-surface2: rgba(19, 20, 15, 1);
+  --dl-color-material-theme_surfaces_dark-surface3: rgba(19, 20, 15, 1);
+  --dl-color-material-theme_surfaces_dark-surface4: rgba(19, 20, 15, 1);
+  --dl-color-material-theme_surfaces_dark-surface5: rgba(19, 20, 15, 1);
+  --dl-color-material-theme_sys_dark-surfacebright: rgba(57, 58, 52, 1);
+  --dl-color-material-theme_sys_dark-tertiaryfixed: rgba(188, 236, 225, 1);
+  --dl-color-material-theme_sys_light-onbackground: rgba(27, 28, 23, 1);
+  --dl-color-material-theme_sys_light-primaryfixed: rgba(207, 239, 104, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary10: rgba(0, 32, 27, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary12: rgba(0, 37, 31, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary17: rgba(0, 48, 42, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary20: rgba(3, 55, 48, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary22: rgba(9, 60, 53, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary24: rgba(16, 64, 57, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary25: rgba(19, 67, 59, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary30: rgba(33, 78, 70, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary35: rgba(45, 90, 82, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary40: rgba(58, 102, 94, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary50: rgba(83, 127, 118, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary60: rgba(108, 153, 144, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary70: rgba(134, 180, 170, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary80: rgba(161, 208, 197, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary87: rgba(180, 228, 217, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary90: rgba(188, 236, 225, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary92: rgba(194, 242, 231, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary94: rgba(200, 248, 237, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary95: rgba(202, 251, 239, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary96: rgba(205, 253, 242, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary98: rgba(229, 255, 248, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary99: rgba(243, 255, 251, 1);
+  --dl-color-material-theme_surfaces_light-surface1: rgba(251, 249, 241, 1);
+  --dl-color-material-theme_surfaces_light-surface2: rgba(251, 249, 241, 1);
+  --dl-color-material-theme_surfaces_light-surface3: rgba(251, 249, 241, 1);
+  --dl-color-material-theme_surfaces_light-surface4: rgba(251, 249, 241, 1);
+  --dl-color-material-theme_surfaces_light-surface5: rgba(251, 249, 241, 1);
+  --dl-color-material-theme_sys_dark-errorcontainer: rgba(147, 0, 10, 1);
+  --dl-color-material-theme_sys_dark-inverseprimary: rgba(81, 102, 0, 1);
+  --dl-color-material-theme_sys_dark-inversesurface: rgba(228, 227, 218, 1);
+  --dl-color-material-theme_sys_dark-onprimaryfixed: rgba(23, 30, 0, 1);
+  --dl-color-material-theme_sys_dark-outlinevariant: rgba(70, 72, 60, 1);
+  --dl-color-material-theme_sys_dark-secondaryfixed: rgba(224, 230, 196, 1);
+  --dl-color-material-theme_sys_dark-surfacevariant: rgba(70, 72, 60, 1);
+  --dl-color-material-theme_sys_light-surfacebright: rgba(251, 249, 241, 1);
+  --dl-color-material-theme_sys_light-tertiaryfixed: rgba(188, 236, 225, 1);
+  --dl-color-material-theme_ref_secondary-secondary0: rgba(0, 0, 0, 1);
+  --dl-color-material-theme_ref_secondary-secondary4: rgba(11, 16, 1, 1);
+  --dl-color-material-theme_ref_secondary-secondary5: rgba(14, 19, 2, 1);
+  --dl-color-material-theme_ref_secondary-secondary6: rgba(16, 21, 3, 1);
+  --dl-color-material-theme_ref_tertiary-tertiary100: rgba(255, 255, 255, 1);
+  --dl-color-material-theme_sys_dark-ontertiaryfixed: rgba(0, 32, 27, 1);
+  --dl-color-material-theme_sys_dark-primaryfixeddim: rgba(180, 211, 79, 1);
+  --dl-color-material-theme_sys_light-errorcontainer: rgba(255, 218, 214, 1);
+  --dl-color-material-theme_sys_light-inverseprimary: rgba(180, 211, 79, 1);
+  --dl-color-material-theme_sys_light-inversesurface: rgba(48, 49, 43, 1);
+  --dl-color-material-theme_sys_light-onprimaryfixed: rgba(23, 30, 0, 1);
+  --dl-color-material-theme_sys_light-outlinevariant: rgba(199, 200, 184, 1);
+  --dl-color-material-theme_sys_light-secondaryfixed: rgba(224, 230, 196, 1);
+  --dl-color-material-theme_sys_light-surfacevariant: rgba(227, 228, 211, 1);
+  --dl-color-material-theme_android_dark-colorsurface: rgba(48, 49, 43, 1);
+  --dl-color-material-theme_android_dark-undersurface: rgba(0, 0, 0, 1);
+  --dl-color-material-theme_ref_secondary-secondary10: rgba(25, 30, 8, 1);
+  --dl-color-material-theme_ref_secondary-secondary12: rgba(29, 34, 12, 1);
+  --dl-color-material-theme_ref_secondary-secondary17: rgba(39, 44, 22, 1);
+  --dl-color-material-theme_ref_secondary-secondary20: rgba(45, 51, 28, 1);
+  --dl-color-material-theme_ref_secondary-secondary22: rgba(50, 55, 32, 1);
+  --dl-color-material-theme_ref_secondary-secondary24: rgba(54, 60, 36, 1);
+  --dl-color-material-theme_ref_secondary-secondary25: rgba(56, 62, 38, 1);
+  --dl-color-material-theme_ref_secondary-secondary30: rgba(68, 73, 48, 1);
+  --dl-color-material-theme_ref_secondary-secondary35: rgba(79, 85, 59, 1);
+  --dl-color-material-theme_ref_secondary-secondary40: rgba(91, 97, 70, 1);
+  --dl-color-material-theme_ref_secondary-secondary50: rgba(116, 122, 93, 1);
+  --dl-color-material-theme_ref_secondary-secondary60: rgba(142, 148, 118, 1);
+  --dl-color-material-theme_ref_secondary-secondary70: rgba(168, 174, 143, 1);
+  --dl-color-material-theme_ref_secondary-secondary80: rgba(196, 202, 169, 1);
+  --dl-color-material-theme_ref_secondary-secondary87: rgba(215, 221, 188, 1);
+  --dl-color-material-theme_ref_secondary-secondary90: rgba(224, 230, 196, 1);
+  --dl-color-material-theme_ref_secondary-secondary92: rgba(230, 236, 201, 1);
+  --dl-color-material-theme_ref_secondary-secondary94: rgba(235, 241, 207, 1);
+  --dl-color-material-theme_ref_secondary-secondary95: rgba(238, 244, 209, 1);
+  --dl-color-material-theme_ref_secondary-secondary96: rgba(241, 247, 212, 1);
+  --dl-color-material-theme_ref_secondary-secondary98: rgba(247, 253, 218, 1);
+  --dl-color-material-theme_ref_secondary-secondary99: rgba(251, 255, 225, 1);
+  --dl-color-material-theme_sys_dark-inverseonsurface: rgba(27, 28, 23, 1);
+  --dl-color-material-theme_sys_dark-onerrorcontainer: rgba(255, 218, 214, 1);
+  --dl-color-material-theme_sys_dark-onsecondaryfixed: rgba(25, 30, 8, 1);
+  --dl-color-material-theme_sys_dark-onsurfacevariant: rgba(199, 200, 184, 1);
+  --dl-color-material-theme_sys_dark-primarycontainer: rgba(61, 77, 0, 1);
+  --dl-color-material-theme_sys_dark-surfacecontainer: rgba(31, 32, 27, 1);
+  --dl-color-material-theme_sys_dark-tertiaryfixeddim: rgba(161, 208, 197, 1);
+  --dl-color-material-theme_sys_light-ontertiaryfixed: rgba(0, 32, 27, 1);
+  --dl-color-material-theme_sys_light-primaryfixeddim: rgba(180, 211, 79, 1);
+  --dl-color-material-theme_android_dark-accentsurface: rgba(241, 242, 225, 1);
+  --dl-color-material-theme_android_dark-surfaceheader: rgba(71, 71, 65, 1);
+  --dl-color-material-theme_android_light-colorsurface: rgba(251, 249, 241, 1);
+  --dl-color-material-theme_android_light-undersurface: rgba(0, 0, 0, 1);
+  --dl-color-material-theme_ref_secondary-secondary100: rgba(255, 255, 255, 1);
+  --dl-color-material-theme_sys_dark-secondaryfixeddim: rgba(196, 202, 169, 1);
+  --dl-color-material-theme_sys_dark-tertiarycontainer: rgba(33, 78, 70, 1);
+  --dl-color-material-theme_sys_light-inverseonsurface: rgba(243, 241, 233, 1);
+  --dl-color-material-theme_sys_light-onerrorcontainer: rgba(65, 0, 2, 1);
+  --dl-color-material-theme_sys_light-onsecondaryfixed: rgba(25, 30, 8, 1);
+  --dl-color-material-theme_sys_light-onsurfacevariant: rgba(70, 72, 60, 1);
+  --dl-color-material-theme_sys_light-primarycontainer: rgba(207, 239, 104, 1);
+  --dl-color-material-theme_sys_light-surfacecontainer: rgba(240, 238, 230, 1);
+  --dl-color-material-theme_sys_light-tertiaryfixeddim: rgba(161, 208, 197, 1);
+  --dl-color-material-theme_android_light-accentsurface: rgba(241, 242, 225, 1);
+  --dl-color-material-theme_android_light-surfaceheader: rgba(228, 227, 218, 1);
+  --dl-color-material-theme_sys_dark-onprimarycontainer: rgba(207, 239, 104, 1);
+  --dl-color-material-theme_sys_dark-secondarycontainer: rgba(68, 73, 48, 1);
+  --dl-color-material-theme_sys_light-secondaryfixeddim: rgba(196, 202, 169, 1);
+  --dl-color-material-theme_sys_light-tertiarycontainer: rgba(188, 236, 225, 1);
+  --dl-color-material-theme_android_dark-colorbackground: rgba(27, 28, 23, 1);
+  --dl-color-material-theme_sys_dark-ontertiarycontainer: rgba(188, 236, 225, 1);
+  --dl-color-material-theme_sys_dark-surfacecontainerlow: rgba(27, 28, 23, 1);
+  --dl-color-material-theme_sys_light-onprimarycontainer: rgba(23, 30, 0, 1);
+  --dl-color-material-theme_sys_light-secondarycontainer: rgba(224, 230, 196, 1);
+  --dl-color-material-theme_android_dark-textcolorprimary: rgba(243, 241, 233, 1);
+  --dl-color-material-theme_android_dark-volumebackground: rgba(59, 60, 54, 1);
+  --dl-color-material-theme_android_light-colorbackground: rgba(243, 241, 233, 1);
+  --dl-color-material-theme_sys_dark-onsecondarycontainer: rgba(224, 230, 196, 1);
+  --dl-color-material-theme_sys_dark-surfacecontainerhigh: rgba(42, 42, 37, 1);
+  --dl-color-material-theme_sys_light-ontertiarycontainer: rgba(0, 32, 27, 1);
+  --dl-color-material-theme_sys_light-surfacecontainerlow: rgba(246, 244, 235, 1);
+  --dl-color-material-theme_android_dark-textcolortertiary: rgba(144, 146, 131, 1);
+  --dl-color-material-theme_android_light-textcolorprimary: rgba(27, 28, 23, 1);
+  --dl-color-material-theme_android_light-volumebackground: rgba(59, 60, 54, 1);
+  --dl-color-material-theme_sys_dark-onprimaryfixedvariant: rgba(61, 77, 0, 1);
+  --dl-color-material-theme_sys_light-onsecondarycontainer: rgba(25, 30, 8, 1);
+  --dl-color-material-theme_sys_light-surfacecontainerhigh: rgba(234, 232, 224, 1);
+  --dl-color-material-theme_android_dark-coloraccentprimary: rgba(207, 239, 104, 1);
+  --dl-color-material-theme_android_dark-textcolorsecondary: rgba(199, 200, 184, 1);
+  --dl-color-material-theme_android_light-textcolortertiary: rgba(118, 120, 107, 1);
+  --dl-color-material-theme_sys_dark-ontertiaryfixedvariant: rgba(33, 78, 70, 1);
+  --dl-color-material-theme_sys_dark-surfacecontainerlowest: rgba(14, 15, 10, 1);
+  --dl-color-material-theme_sys_light-onprimaryfixedvariant: rgba(61, 77, 0, 1);
+  --dl-color-material-theme_android_dark-coloraccenttertiary: rgba(188, 236, 225, 1);
+  --dl-color-material-theme_android_dark-colorsurfacevariant: rgba(71, 71, 65, 1);
+  --dl-color-material-theme_android_dark-textprimaryonaccent: rgba(27, 28, 23, 1);
+  --dl-color-material-theme_android_light-coloraccentprimary: rgba(207, 239, 104, 1);
+  --dl-color-material-theme_android_light-textcolorsecondary: rgba(70, 72, 60, 1);
+  --dl-color-material-theme_sys_dark-onsecondaryfixedvariant: rgba(68, 73, 48, 1);
+  --dl-color-material-theme_sys_dark-surfacecontainerhighest: rgba(53, 53, 48, 1);
+  --dl-color-material-theme_sys_light-ontertiaryfixedvariant: rgba(33, 78, 70, 1);
+  --dl-color-material-theme_sys_light-surfacecontainerlowest: rgba(255, 255, 255, 1);
+  --dl-color-material-theme_android_dark-coloraccentsecondary: rgba(224, 230, 196, 1);
+  --dl-color-material-theme_android_light-coloraccenttertiary: rgba(188, 236, 225, 1);
+  --dl-color-material-theme_android_light-colorsurfacevariant: rgba(228, 227, 218, 1);
+  --dl-color-material-theme_android_light-textprimaryonaccent: rgba(27, 28, 23, 1);
+  --dl-color-material-theme_sys_light-onsecondaryfixedvariant: rgba(68, 73, 48, 1);
+  --dl-color-material-theme_sys_light-surfacecontainerhighest: rgba(228, 227, 218, 1);
+  --dl-color-material-theme_android_dark-colorsurfacehighlight: rgba(83, 83, 77, 1);
+  --dl-color-material-theme_android_dark-textsecondaryonaccent: rgba(70, 72, 60, 1);
+  --dl-color-material-theme_android_light-coloraccentsecondary: rgba(224, 230, 196, 1);
+  --dl-color-material-theme_android_light-colorsurfacehighlight: rgba(255, 255, 255, 1);
+  --dl-color-material-theme_android_light-textsecondaryonaccent: rgba(70, 72, 60, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant0: rgba(0, 0, 0, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant4: rgba(13, 15, 6, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant5: rgba(16, 18, 9, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant6: rgba(18, 20, 11, 1);
+  --dl-color-material-theme_android_dark-colorbackgroundfloating: rgba(27, 28, 23, 1);
+  --dl-color-material-theme_android_dark-textcolorprimaryinverse: rgba(27, 28, 23, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant10: rgba(26, 29, 19, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant12: rgba(30, 33, 22, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant17: rgba(41, 43, 32, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant20: rgba(47, 49, 38, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant22: rgba(52, 54, 43, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant24: rgba(56, 58, 47, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant25: rgba(58, 60, 49, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant30: rgba(70, 72, 60, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant35: rgba(82, 84, 71, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant40: rgba(94, 96, 83, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant50: rgba(118, 120, 107, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant60: rgba(144, 146, 131, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant70: rgba(171, 172, 157, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant80: rgba(199, 200, 184, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant87: rgba(218, 219, 203, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant90: rgba(227, 228, 211, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant92: rgba(233, 233, 217, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant94: rgba(238, 239, 222, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant95: rgba(241, 242, 225, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant96: rgba(244, 245, 228, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant98: rgba(250, 250, 234, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant99: rgba(253, 253, 236, 1);
+  --dl-color-material-theme_android_dark-textcolortertiaryinverse: rgba(120, 119, 113, 1);
+  --dl-color-material-theme_android_light-colorbackgroundfloating: rgba(251, 249, 241, 1);
+  --dl-color-material-theme_android_light-textcolorprimaryinverse: rgba(243, 241, 233, 1);
+  --dl-color-material-theme_ref_neutral-variant-neutralvariant100: rgba(255, 255, 255, 1);
+  --dl-color-material-theme_android_dark-coloraccentprimaryvariant: rgba(153, 183, 54, 1);
+  --dl-color-material-theme_android_dark-textcolorsecondaryinverse: rgba(71, 71, 65, 1);
+  --dl-color-material-theme_android_light-textcolortertiaryinverse: rgba(146, 145, 138, 1);
+  --dl-color-material-theme_android_dark-coloraccenttertiaryvariant: rgba(134, 180, 170, 1);
+  --dl-color-material-theme_android_light-coloraccentprimaryvariant: rgba(81, 102, 0, 1);
+  --dl-color-material-theme_android_light-textcolorsecondaryinverse: rgba(200, 199, 191, 1);
+  --dl-color-material-theme_android_dark-coloraccentsecondaryvariant: rgba(168, 174, 143, 1);
+  --dl-color-material-theme_android_light-coloraccenttertiaryvariant: rgba(58, 102, 94, 1);
+  --dl-color-material-theme_android_light-coloraccentsecondaryvariant: rgba(91, 97, 70, 1);
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.materialThemetitlesmall {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.BodyText18px-Regular {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.materialThemedisplaysmall {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.materialThemetitlelarge {
+  font-size: 22px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Headline80px-SemiBold {
+  font-size: 80px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.M3bodylarge {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.materialThemebodylarge {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.materialThemebodymedium {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.materialThemedisplaymedium {
+  font-size: 45px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.materialThemelabellarge {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.materialThemeheadlinemedium {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.materialThemelabelmedium {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.materialThemetitlemedium {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.materialThemeheadlinesmall {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.materialThemedisplaylarge {
+  font-size: 57px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.materialThemelabelsmall {
+  font-size: 11px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.materialThemebodysmall {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.materialThemeheadlinelarge {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
